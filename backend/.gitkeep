@@ -1,0 +1,5 @@
+# Create .gitkeep files in empty directories
+touch backend/src/uploads/.gitkeep
+touch backend/src/outputs/cleaned/.gitkeep
+touch backend/src/outputs/chunks/.gitkeep
+touch backend/src/outputs/reports/.gitkeep

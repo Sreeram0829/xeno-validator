@@ -1,0 +1,16 @@
+order_id,product,amount,payment_mode,phone,email,date,customer_name
+ORD-001,Laptop,50000,UPI,9876543210,rahul.sharma@email.com,15-06-2024,Rahul Sharma
+ORD-002,Smartphone,35000,NET_BANKING,8765432109,priya.patel@email.com,16-06-2024,Priya Patel
+ORD-003,Headphones,2500,CREDIT_CARD,7654321098,amit.kumar@email.com,17-06-2024,Amit Kumar
+ORD-004,Tablet,28000,DEBIT_CARD,6543210987,neha.singh@email.com,18-06-2024,Neha Singh
+ORD-005,Smartwatch,15000,UPI,5432109876,vikram.reddy@email.com,19-06-2024,Vikram Reddy
+ORD-006,Monitor,22000,PAYPAL,4321098765,ananya.joshi@email.com,20-06-2024,Ananya Joshi
+ORD-007,Keyboard,3500,RAZORPAY,3210987654,arjun.nair@email.com,21-06-2024,Arjun Nair
+ORD-008,Mouse,1500,NET_BANKING,2109876543,divya.menon@email.com,22-06-2024,Divya Menon
+ORD-009,Printer,18000,CREDIT_CARD,1098765432,karan.mehta@email.com,23-06-2024,Karan Mehta
+ORD-010,Scanner,12000,DEBIT_CARD,9988776655,meera.iyer@email.com,24-06-2024,Meera Iyer
+ORD-011,Webcam,8000,UPI,9876543211,rohan.desai@email.com,25-06-2024,Rohan Desai
+ORD-012,Speaker,6000,PAYPAL,8765432110,sneha.rao@email.com,26-06-2024,Sneha Rao
+ORD-013,Router,4000,RAZORPAY,7654321099,gaurav.jain@email.com,27-06-2024,Gaurav Jain
+ORD-014,Switch,3000,NET_BANKING,6543210988,pooja.nair@email.com,28-06-2024,Pooja Nair
+ORD-015,Firewall,15000,CREDIT_CARD,5432109877,deepak.gupta@email.com,29-06-2024,Deepak Gupta

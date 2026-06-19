@@ -1,0 +1,28 @@
+{
+  "name": "xeno-transaction-validator-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend for transaction data validation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "archiver": "^6.0.2",
+    "axios": "^1.18.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fast-csv": "^4.3.6",
+    "fs-extra": "^11.1.1",
+    "libphonenumber-js": "^1.10.37",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

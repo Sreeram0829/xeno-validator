@@ -1,0 +1,100 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.test
+
+# Build outputs
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backend outputs - IMPORTANT: Exclude generated files
+src/uploads/
+src/outputs/
+src/outputs/cleaned/
+src/outputs/chunks/
+src/outputs/reports/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+server.log
+
+# Uploads
+uploads/
+temp/
+
+# Misc
+*.pem
+*.key
+*.cert
+*.p12
+
+# Environment
+.env*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Production
+dist/
+build/
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+.idea
+.vscode
+*.swp
+*.swo
+*~
+.DS_Store
