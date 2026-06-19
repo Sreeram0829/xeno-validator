@@ -69,9 +69,11 @@ await ensureDirectories();
 
 // CORS middleware
 app.use(cors({
-  origin: appConfig.cors.origin,
-  credentials: appConfig.cors.credentials,
-  optionsSuccessStatus: appConfig.cors.optionsSuccessStatus
+  origin: [
+    'http://localhost:5173',
+    'https://xeno-validator-tau.vercel.app'
+  ],
+  credentials: true
 }));
 
 // Body parsing middleware
